@@ -93,6 +93,7 @@ const AddProduct = () => {
               <option value="Laptop">Laptop</option>
               <option value="Camera">Camera</option>
               <option value="Accessories">Accessories</option>
+              <option value="Accessories">Cage</option>
             </select>
           </div>
           <div className="flex flex-col gap-1 w-32">
@@ -124,7 +125,7 @@ const AddProduct = () => {
             />
           </div>
         </div>
-        <button type="submit" className="px-8 py-2.5 bg-orange-600 text-white font-medium rounded">
+        <button type="submit" className="px-8 py-2.5 bg-blue-700 text-white font-medium rounded">
           ADD
         </button>
       </form>
